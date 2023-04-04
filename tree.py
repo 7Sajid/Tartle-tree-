@@ -17,3 +17,5 @@ def f(t, l):
        rt = t.clone() 
        rt.right(angle) 
        f(rt, l-step) 
+    f(t, 60) 
+t.exitonclick()
